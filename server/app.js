@@ -6,11 +6,9 @@ const cors = require('cors')
 
 const app = express();
 
-const corsOption = {
-    origin: 'https://flowboard.vercel.app/',
-}
 
-app.use(cors(corsOption))
+
+app.use(cors())
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
