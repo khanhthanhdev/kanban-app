@@ -13,6 +13,8 @@ axiosClient.interceptors.request.use(async config => {
   return {
     ...config,
     headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
       'Content-Type': 'application/json',
       'authorization': `Bearer ${getToken()}`
     }
