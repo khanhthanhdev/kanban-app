@@ -1,16 +1,38 @@
-!["Full Stack Kanban App | React Node MongoDB Material-UI"](https://user-images.githubusercontent.com/67447840/177310317-3d9ad738-af83-4cc1-976a-c4a54c1033ff.png "Full Stack Kanban App | React Node MongoDB Material-UI")
+!["Full Stack Kanban App | React Node MongoDB Material-UI"]
 
-# Video tutorial
+# Fullstack Kanban-app with reactjs, material UI, redux
 
-    https://youtu.be/sqGowdB1tvY
+Techstack: ReactJS, material UI, Redux, express, react-beautiful-dnd for drag and drop
 
-# Reference
 
-    - Create react app:https://create-react-app.dev/
-    - React beautiful dnd: https://github.com/atlassian/react-beautiful-dnd/
-    - Material-UI: https://mui.com/
-    - Express: https://expressjs.com/
+## Installation
 
-# Preview
+Clone project and get started
+
+```bash
+  git clone https://github.com/khanhthanhdev/kanban-app.git
+  cd kanban-app
+  cd client --> yarn install
+  cd server --> yarn install
+```
+Create .env in /server
+
+```code
+    PORT = 
+    MONGODB_URL = 
+    PASSWORD_SECRET_KEY =
+    TOKEN_SECRET_KEY =
+```
+Get MONGODB_URL from mongodb. net
+
+PASSWORD_SECRET_KEY and TOKEN_SECRET_KEY is random string, you can customize it !
+
+To run locally
+```
+    cd client --> yarn start
+    cd server --> yarn start
+```
+
+
 
 !["Full Stack Kanban App | React Node MongoDB Material-UI"](https://user-images.githubusercontent.com/67447840/177310521-764f8ff7-5e3d-4644-ac0a-273cf83e48aa.gif "Full Stack Kanban App | React Node MongoDB Material-UI")
