@@ -16,8 +16,11 @@ Clone project and get started
 Create .env in /server
 
 `PORT`  
+
 `MONGODB_URL`  
+
 `PASSWORD_SECRET_KEY` 
+
 `TOKEN_SECRET_KEY` 
 
 Get MONGODB_URL from mongodb. net
@@ -32,4 +35,4 @@ To run locally
 
 
 
-!["Full Stack Kanban App | React Node MongoDB Material-UI"](https://user-images.githubusercontent.com/67447840/177310521-764f8ff7-5e3d-4644-ac0a-273cf83e48aa.gif "Full Stack Kanban App | React Node MongoDB Material-UI")
+![image](https://github.com/khanhthanhdev/kanban-app/assets/100078354/d468cb58-035b-45db-919c-48a5a675bb5e)
